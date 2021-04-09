@@ -1,0 +1,57 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    border: 0;
+} */
+
+header{
+  padding-left: 20px;
+}
+
+#bunner{
+  width: 100%;
+}
+
+.principal{
+  background-color: #cccccc ;
+  padding: 30px;
+  text-align: center;
+}
+
+#missao{
+  font-size: 20px;
+}
+
+#missao strong{
+  line-height: 30px;
+  color: red;
+}
+
+ul{
+  display: inline-block;
+  vertical-align: top;
+  width: 20%;
+  margin-right: 15%;
+
+}
+
+ul li{
+  font-style: italic;
+}
+
+
+
+
+.beneficios {
+  background: white;
+  padding: 20px;
+
+}
+
+.beneficios h2{
+  text-align: center;
+}
+
+.beneficios img{
+  width: 50%;
+}
