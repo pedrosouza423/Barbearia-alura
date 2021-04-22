@@ -1,3 +1,4 @@
+/* CABEÇALIO */
 header{
     background-color: #BBBBBB;
     padding: 20px 0; 
@@ -27,11 +28,19 @@ nav a {
     font-size: 22px;
 }
 
+nav a:hover{
+    color: #C78C19;
+    text-decoration: underline;
+}
+
+/* CONTEÚDO PRINCIPAL  - PRODUTOS */
+
 .produtos{
     margin: 0 auto;
     width: 940px;
     padding: 50px 0;
 }
+
 
 .produtos li{
     display: inline-block;
@@ -44,6 +53,22 @@ nav a {
     border: 2px solid black;
     border-radius: 4%;
 }
+
+.produtos li:hover{
+    border-color: #C78C19;
+    
+}
+
+.produtos li:active{
+    border-color: #C78C19;
+    
+}
+
+.produtos li:hover h2{
+    font-size: 34px;
+    
+}
+
 
 .produtos h2{
     font-weight: bold;
@@ -61,3 +86,15 @@ nav a {
     margin-top: 10px;
 }
 
+/* RODAPÉ */
+footer{
+    background: url(images/bg.jpg);
+    text-align: center;
+    padding: 40px 0;
+}
+
+.copyright{
+    color: white;
+    font-size: 13px;
+    margin-top: 20px;
+}
