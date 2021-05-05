@@ -43,8 +43,8 @@
             <textarea name="mensagem" id="mensagem" cols="30" rows="10" class="input-padrao"  required></textarea >
 
             <!--Marcação-->
-            <div class="selecao">
-                <p>Como prefere o nosso contato?</p>
+            <fieldset>
+                <legend>Como prefere o nosso contato?</legend>
                 <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email" checked>Email</label>
                 
     
@@ -53,26 +53,26 @@
     
                 <label for="radio-whatsapp"><input type="radio" name="contato" value="Whatsapp" id="radio-whatsapp">Whatsapp</label>
                 
-            </div>
+            </fieldset>
         
-            <div>    
-                <p>Qual horário prefere ser atendido?</p>
+            <fieldset>    
+                <legend>Qual horário prefere ser atendido?</legend>
                 <select name="horario" id="horario">
                     <option value="horario">Manhã</option>
                     <option value="horario">Tarde</option>
                     <option value="horario">Noite</option>
                 </select>
-            </div>
+            </fieldset>
 
             <label for="checkbox"><input type="checkbox" name="checkbox" id="checkbox" class="checkbox" checked>Gostaria de receber nossas novidades por email?</label>
             
             <!--BOTÃO-->
-            <input type="submit" value="Enviar Formulário">
+            <input type="submit" value="Enviar Formulário" class="enviar">
         </form>
     </main>
 
     <footer>
-        <img src="images/logo-branco.png" alt="Logo-Rodapé">
+        <img src="images/logo-branco.png" alt="Logo da Barbearia Alura">
         <p class="copyright">&copy; Copyright Barbearia Alura - 2021</p>
     </footer>
     

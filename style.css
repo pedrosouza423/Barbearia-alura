@@ -143,7 +143,7 @@ form{
   margin: 40px 0;
 }
 
-form label, form p{
+form label, form legend{
   display: block;
   font-size: 20px;
   margin: 0 0 10px;
@@ -161,7 +161,25 @@ form label, form p{
   margin: 20px 5px;
 }
 
+/*BOTÃO ENVIAR */
+.enviar{
+  width: 40%;
+  padding: 15px 0;
+  background-color: orange;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  transition: 1s all;
+  cursor: pointer;
+}
 
+.enviar:hover{
+  background-color: darkorange;
+  transform: scale(1.2);
+
+}
 
 /* RODAPÉ */
 footer{
