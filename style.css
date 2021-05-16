@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,400;0,700;1,400&display=swap');
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  
+}
+
 /* CABEÇALIO */
 header{
   background-color: #BBBBBB;
@@ -34,24 +41,51 @@ nav a:hover{
 }
 
 /* MAIN - HOME */
+main{
+  width: 940px;
+  margin: 0 auto;
+}
 
-#bunner{
+.bunner{
   width: 100%;
 }
 
 .principal{
-  background-color: #cccccc ;
-  padding: 30px;
+  width: 940px;
+  margin: 0 auto;
+}
+
+.titulo-principal{
+  font-size: 2em;
+  margin-bottom: 1em;
   text-align: center;
+  clear: left;
 }
 
-#missao{
-  font-size: 20px;
+.principal p{
+  margin-bottom: 1em;
 }
 
-#missao strong{
-  line-height: 30px;
-  color: red;
+.principal strong {
+  font-weight: bold;
+}
+
+.principal em{
+  font-style: italic;
+}
+
+/* Imagem de utensilios */
+.utensilios{
+  width: 120px;
+  float: left;
+  margin: 0 20px 0 20px;
+}
+
+
+.beneficios {
+  padding: 20px;
+
+
 }
 
 .beneficios ul{
@@ -66,11 +100,7 @@ nav a:hover{
   font-style: italic;
 }
 
-.beneficios {
-  background: white;
-  padding: 20px;
 
-}
 
 .beneficios h2{
   text-align: center;
