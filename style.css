@@ -41,10 +41,10 @@ nav a:hover{
 }
 
 /* MAIN - HOME */
-.main-home{
+/* .main-home{
   width: 940px;
   margin: 0 auto;
-}
+} */
 
 .bunner{
   width: 100%;
@@ -53,6 +53,8 @@ nav a:hover{
 .principal{
   width: 940px;
   margin: 0 auto;
+  padding: 3em 0;
+  background-color: #FEFEFE;
 }
 
 .titulo-principal{
@@ -60,6 +62,7 @@ nav a:hover{
   margin-bottom: 1em;
   text-align: center;
   clear: left;
+
 }
 
 .principal p{
@@ -78,13 +81,21 @@ nav a:hover{
 .utensilios{
   width: 120px;
   float: left;
-  margin: 0 20px 0 20px;
+  margin: 0 20px 20px 20px;
 }
 
 /* MAPA */
 .mapa{
   padding: 3em 0;
   text-align: center;
+  background: linear-gradient(#FEFEFE, #888888 );
+}
+ 
+
+.mapa-conteudo{
+  
+  width: 940px;
+  margin: 0 auto;
 }
 
 .mapa p {
@@ -97,6 +108,7 @@ nav a:hover{
 
 .beneficios{
   padding: 3em 0;
+  background-color: #888888;
 }
 
 .conteudo-beneficios{
@@ -120,6 +132,12 @@ nav a:hover{
   font-weight: bold;
 
 }
+
+.itens:before{
+  content: "\2605";
+
+}
+
 
 .imagem-beneficios{
   width: 60%;
@@ -264,3 +282,4 @@ footer{
   font-size: 13px;
   margin-top: 20px;
 }
+
