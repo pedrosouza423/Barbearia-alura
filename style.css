@@ -62,7 +62,6 @@ nav a:hover{
   margin-bottom: 1em;
   text-align: center;
   clear: left;
-
 }
 
 .principal p{
@@ -141,8 +140,15 @@ nav a:hover{
 
 .imagem-beneficios{
   width: 60%;
+  transition: 400ms;
+  opacity: 1;
+  box-shadow: 10px 10px 10px black;
 }
 
+.imagem-beneficios:hover{
+  opacity: 0.3;
+
+}
 
 
 /* Video - home */
